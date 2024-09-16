@@ -1,0 +1,17 @@
+import subprocess
+
+subprocess.run(["python", "1-install.py"])
+print("Installs complete. Exiting 1-install.py")
+print("Entering 2-text-to-excel.py...")
+subprocess.run(["python", "2-text-to-excel.py"])
+print("Text to Excel conversion complete. Exiting 2-text-to-excel.py")
+print("Entering 3-manipulate-excel.py...")
+subprocess.run(["python", "3-manipulate-excel.py"])
+print("Excel Manipulation complete. Exiting 3-manipulating-excel.py")
+print("Entering 4-Mann-Kendall-Test.py...")
+subprocess.run(["python", "4-Mann-Kendall-Test.py"])
+print("Mann-Kendall Test Complete.")
+print("Entering 5-Format-Test-Results.py...")
+subprocess.run(["python", "5-Format-Test-Results.py"])
+print("Formatting complete. Exiting 5-Format-Test-Results.py")
+print("Test-Results.xlsx ready for Power BI Integration.")
